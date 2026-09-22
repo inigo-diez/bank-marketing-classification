@@ -373,36 +373,6 @@ que la partición aleatoria empleada aquí.
 
 ---
 
-## 10. Reproducción
-
-```bash
-git clone <url-del-repositorio>
-cd bank-marketing-classification
-
-python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-
-jupyter notebook notebooks/analisis-bank-marketing.ipynb
-```
-
-```
-bank-marketing-classification/
-├── README.md
-├── requirements.txt
-├── data/
-│   ├── bank-additional-full.csv        # 41.188 registros, separador ';'
-│   └── bank-additional-names.txt       # diccionario de variables
-├── notebooks/
-│   └── analisis-bank-marketing.ipynb   # análisis completo
-└── img/                                # figuras del informe
-```
-
-El cuaderno emplea rutas relativas y se ejecuta de principio a fin sin intervención. El tiempo
-total ronda el minuto, dominado por la búsqueda en rejilla.
-
----
-
 ## Referencias
 
 Moro, S., Cortez, P. y Rita, P. (2014). *A Data-Driven Approach to Predict the Success of Bank
